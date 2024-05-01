@@ -1,4 +1,4 @@
-## Provisioning of a developer vm in azure using teraform.
+## Provisioning of a developer vm in azure using terraform.
 
 ### Configure VM during provisioning using a local file and the filebase64 function
 
