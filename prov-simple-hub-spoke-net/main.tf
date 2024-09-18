@@ -1,21 +1,8 @@
 
-
-# variable "storage_account_name" {
-#   type = string
-#   description = "Please enter a Storage account name!"
-# }
-
 locals {
   resource_group = "hub-and-spoke"
   location       = "North Europe"
 }
-
-# Get information about existent resources
-# data "azurerm_subnet" "SubnateA" {
-#   name                 = "SubnetA"
-#   virtual_network_name = "app-network"
-#   resource_group_name  = local.resource_group
-# }
 
 resource "azurerm_resource_group" "main" {
   name     = local.resource_group

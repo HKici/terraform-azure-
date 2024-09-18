@@ -29,8 +29,8 @@ resource "azurerm_linux_virtual_machine" "dev_vm" {
   resource_group_name = local.resource_group
   location            = local.location
   size                = "Standard_B1s"
-  admin_username      = "huso"
-  admin_password      = "Huso!1207"
+  admin_username      = "golom"
+  admin_password      = "Test123"
   network_interface_ids = [
     azurerm_network_interface.dev_nic.id,
   ]
